@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+.headerT{
+    width:100%;
+    text-align:center;
+    vertical-align:middle;
+}
+.headerT div{
+    display:inline-block;
+}
+
+.headerT .menuBar{}
+.headerT .menuBar span{
+    display:block;
+    width:30px;
+    height:2px;
+    background:#fff;
+}
+.headerT .menuBar span:nth-child(2n){
+    margin:8px 0;
+}
+.headerT .menuBar span:last-child{
+    width:20px;
+}
+
+.headerT h1{
+    display:inline-block;
+    width:53%;
+    margin:0 12%;
+}
+.headerT h1 a{}
+.headerT h1 img{
+    display:inline-block;
+    width:100%;
+}
+
+.headerT .search{}
+.headerT .search a{}
+.headerT .search img{
+    display:inline-block;
+    width:20px;
+}
+
+
+/*푸터*/
+#footer{
+    width:100%;
+    background:#dfdfdf;
+}
+#footer h2{
+    padding-top:10%;
+}
+#footer h2 a{
+    display:block;
+    width:65%;
+    margin:0 auto;
+}
+#footer h2 img{
+    width:20%;
+}
+#footer h2 p{
+    display:inline-block;
+    font-size:22px;
+    font-weight:600;
+}
+#footer h2 p span{
+    display:block;
+    font-size:8px;
+    font-weight:200;
+}
+
+.ftMenu{
+    width:90%;
+    margin:5% auto;
+}
+.ftMenu li{
+    width:33%;
+    float:left;
+    font-size:15px;
+    text-align:center;
+}
+.ftMenu a{}
+
+.ftTxt{
+    font-size:15px;
+    text-align:center
+}
+.ftTxt span{
+    display:block;
+    padding:5% 0;
+}
+
+.Txt{
+    font-size:12px;
+    text-align:center;
+    padding-bottom:3%;
+}
+
+.utillT{}
+.utillT a{
+    display:block;
+    width:100%;
+    padding:3% 0;
+    background:#ccc;
+    font-size:20px;
+    text-align:center;
+}
+
